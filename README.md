@@ -5,13 +5,13 @@ Simple javascript library that plots realtime streamable data
 ## install:
 
 ```
-yarn add streamchart
+yarn add @larskarbo/streamchart
 ```
 
 ## usage:
 
 ```
-import StreamChart from 'streamchart'
+import StreamChart from '@larskarbo/streamchart'
 
 const chart = new StreamChart(document.getElementByID("#div"))
 
