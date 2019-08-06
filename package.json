@@ -1,0 +1,16 @@
+{
+  "name": "streamchart",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/index.js",
+  "main": "dist/index.js", 
+  "scripts": {
+    "dev": "microbundle watch"
+  },
+  "dependencies": {
+    "konva": "^4.0.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
