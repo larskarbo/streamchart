@@ -10,4 +10,14 @@ yarn add streamchart
 
 ## usage:
 
-todo
+```
+import StreamChart from 'streamchart'
+
+const chart = new StreamChart(document.getElementByID("#div"))
+
+setInterval(() => {
+  chart.addValue(Math.random())
+}, 100)
+```
+
+![](src/gif.gif "")
