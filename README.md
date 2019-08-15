@@ -1,5 +1,7 @@
 # StreamChart.js
 
+![](src/logo.svg "")
+
 Simple javascript library that plots realtime streamable data
 
 ## install:
